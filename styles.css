@@ -79,3 +79,15 @@ body {
 .footer-image {
     height: 30px;
 }
+
+@media only screen and (max-width: 950px) {
+    .octocat {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .octocat {
+        width: 90%;
+    }
+}
